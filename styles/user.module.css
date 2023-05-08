@@ -1,0 +1,60 @@
+.wrapper{
+    display: flex; 
+    margin: 0 auto;
+    font-size: 0.75rem;
+    line-height: 1rem; 
+    flex-direction: column; 
+    flex: 1 1 0%; 
+    gap: 0.75rem; 
+
+}
+
+.inputs{
+    display: flex; 
+    border: none;
+  
+}
+
+.inputs input{
+  font-family: heebo;
+  font-weight: bolder;
+  border-radius: 7px;
+  height:48px;
+  }
+
+
+
+.add{
+    padding: 0.75rem; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    flex: 1 1 0%; 
+    outline: 0; 
+    color: black;
+    border: none;
+    
+}
+
+.addButton{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    color: #ffffff; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    font-weight: 500; 
+    background-color: #06b6d4;
+    border-radius: 7px;
+    font-family: heebo;
+    font-weight: bolder;
+    height: 50px;
+    
+}
+
+
+.addButton:hover {
+    filter: brightness(60%);
+    transition-duration: 1000ms; 
+
+}

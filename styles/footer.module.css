@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex; 
+    padding: 10px;
+    /* gap: 1.25rem;  */
+    /* height: 70px; */
+    height: 30px;
+}
+
+.wrapper span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: vina;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.wrapper svg{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}

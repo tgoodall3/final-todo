@@ -1,0 +1,29 @@
+.wrapper{
+    display: flex; 
+    position: relative; 
+    color: #ffffff; 
+    flex-direction: column; 
+    min-height: 90vh; 
+}
+
+.head{
+    font-family: vina;
+    background-color: transparent; 
+    color: #ffffff; 
+}
+
+.main{
+    /* width: 100%;
+    margin-left: -10px; */
+    display: flex; 
+    padding: 1rem; 
+    background-color: #111827; 
+    --bg-opacity: 0.6; 
+    flex-direction: column; 
+    flex: 1 1 0%; 
+}
+
+.footer{
+    background-color: transparent; 
+    color: white; 
+}

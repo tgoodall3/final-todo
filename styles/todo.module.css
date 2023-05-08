@@ -1,0 +1,80 @@
+.wrapper{
+    display: flex; 
+    position: relative; 
+    align-items: stretch; 
+    border-width: 1px; 
+    border-color: #ffffff; 
+    border-style: solid; 
+    justify-content: space-between;
+
+}
+
+.todo{
+    font-size: 25px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+    padding-left: 1rem;
+}
+
+.input{
+    font-family: heebo;
+    font-weight: bolder;
+    height: 24px;
+    color: black; 
+    flex: 1 1 0%; 
+}
+
+
+.clicks{
+    display: flex; 
+align-items: center; 
+}
+
+.edit{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    transition-duration: 300ms; 
+    cursor: pointer; 
+    color: black;
+}
+
+.edit svg{
+    height: 15px;
+    width: 15px;
+    filter: invert();
+
+}
+
+.edit svg:hover{
+    height: 17px;
+    width: 17px;
+    rotate: 10deg;
+    animation-duration:  1000ms;
+}
+
+.edit input{
+    color: black;
+}
+
+.delete{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    transition-duration: 300ms; 
+    cursor: pointer; 
+
+}
+
+.delete svg{
+    height: 15px;
+    width: 15px;
+    filter: invert();
+}
+
+.delete svg:hover{
+    height: 17px;
+    width: 17px;
+    rotate: 10deg;
+    animation-duration:  1000ms;
+}
